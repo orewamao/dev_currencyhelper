@@ -1,0 +1,86 @@
+[
+    {
+      "value": "AUD",
+      "label": "AUD",
+      "emoji": "🇦🇺",
+      "symbol": "$",
+      "CN-desc": "澳大利亚元"
+    },
+    {
+      "value": "CAD",
+      "label": "CAD",
+      "emoji": "🇨🇦",
+      "symbol": "$",
+      "CN-desc": "加拿大元"
+    },
+    {
+      "value": "CHF",
+      "label": "CHF",
+      "emoji": "🇨🇭",
+      "symbol": "SFr.",
+      "CN-desc": "瑞士法郎"
+    },
+    {
+      "value": "CNY",
+      "label": "CNY",
+      "emoji": "🇨🇳",
+      "symbol": "¥",
+      "CN-desc": "人民币"
+    },
+    {
+      "value": "EUR",
+      "label": "EUR",
+      "emoji": "🇪🇺",
+      "symbol": "€",
+      "CN-desc": "欧元"
+    },
+    {
+        "value": "GBP",
+        "label": "GBP",
+        "emoji": "🇬🇧",
+        "symbol": "£",
+        "CN-desc": "英镑"
+      },
+    {
+      "value": "HKD",
+      "label": "HKD",
+      "emoji": "🇭🇰",
+      "symbol": "$",
+      "CN-desc": "港币"
+    },
+    {
+      "value": "JPY",
+      "label": "JPY",
+      "emoji": "🇯🇵",
+      "symbol": "¥",
+      "CN-desc": "日元"
+    },
+    {
+        "value": "KRW",
+        "label": "KRW",
+        "emoji": "🇰🇷",
+        "symbol": "₩",
+        "CN-desc": "韩元"
+      },
+    {
+      "value": "NZD",
+      "label": "NZD",
+      "emoji": "🇳🇿",
+      "symbol": "$",
+      "CN-desc": "新西兰元"
+    },
+    {
+      "value": "RUB",
+      "label": "RUB",
+      "emoji": "🇷🇺",
+      "symbol": "₽",
+      "CN-desc": "卢布"
+    },
+    {
+      "value": "USD",
+      "label": "USD",
+      "emoji": "🇺🇸",
+      "symbol": "$",
+      "CN-desc": "美元"
+    }
+]

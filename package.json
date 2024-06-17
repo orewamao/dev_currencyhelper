@@ -1,0 +1,38 @@
+{
+  "name": "dev_currencyhelper",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "_build": "tsc && npm run build:main && npm run build:background && npm run build:content",
+    "_build:main": "vite build --config vite.config.ts",
+    "_build:background": "vite build --config vite-background.config.ts",
+    "_build:content": "vite build --config vite-content.config.ts",
+    "build": "tsc && vite build --config vite.config.ts && vite build --config vite-content.config.ts && vite build --config vite-background.config.ts",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.268",
+    "antd": "^5.16.4",
+    "dexie": "^4.0.4",
+    "dexie-react-hooks": "^1.1.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.10"
+  }
+}
